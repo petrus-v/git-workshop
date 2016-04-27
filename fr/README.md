@@ -16,7 +16,7 @@ Ensuite des exercices seront proposés.
 
 ## Contribuer
 
-Soyé libre de contribuer en créant des ``issues`` ou ``pull request`` sur
+Soyez libre de contribuer en créant des ``issues`` ou ``pull request`` sur
 le repo GitHub [petrus-v/git-workshop](https://github.com/petrus/git-workshop)
 
 
