@@ -1,0 +1,18 @@
+{
+  "title": "Git workshop",
+  "language": "fr",
+  "description": "This is the Anybox Git workshops book",
+  "plugins": [
+    "github",
+    "language-picker",
+    "heading-anchors"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/petrus-v/git-workshop"
+    },
+    "language-picker": {
+      "grid-columns": 3
+    }
+  }
+}
