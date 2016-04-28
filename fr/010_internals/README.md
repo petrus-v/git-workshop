@@ -187,7 +187,7 @@ suivant :
 ```
 
 
-![commit 1](010_git_example_commit_1.png)
+![commit 1](images/010_git_example_commit_1.png)
 
 Puis au second commit nous avons modifié le fichier ``simple.py`` nous arrivons
 donc à l'état suivant:
@@ -198,4 +198,4 @@ $ git l
 * 825d425 (tag: v1) Initial commit
 ```
 
-![commit 1](010_git_example_commit_2.png)
+![commit 2](images/010_git_example_commit_2.png)
