@@ -158,7 +158,15 @@ Realease v1
 > **Important**: Les branches (qui pointent également vers des commits) ne sont
 > pas sauvegardés comme des objets.
 
+## Les références
+
+Nous venons de voir les objets qui ne peuvent pas être modifiés, à l'inverse
+les réfénces, également enregistrées (répertoire ``.git/refs``) par git peuvent
+changer constament. Ce sont de simple pointeur vers des commits, un peu comme
+des tags mais plus facilement modifiable.
+
 ## Le modèle
+
 
 ![data model](images/010_model.png)
 
