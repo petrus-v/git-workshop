@@ -199,3 +199,8 @@ $ git l
 ```
 
 ![commit 2](images/010_git_example_commit_2.png)
+
+---
+Ce chapitre est très grandement inspiré de l'exellent document [Git Internals](
+https://github.com/pluralsight/git-internals-pdf/releases) de [Scott Chacon](
+https://github.com/schacon)
