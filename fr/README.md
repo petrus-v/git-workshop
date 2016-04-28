@@ -1,9 +1,14 @@
 # Atelier Git
 
-Cet atelier à pour objectif de couvrir et pratiquer les commandes git les plus
-utilisées dans le cadre de projet en équipe ou au sein d'une communautée.
+Cet atelier à pour objectif de couvrir et pratiquer les commandes git 
+dans le cadre de projet en équipe ou au sein d'une communautée.
 
 
+## Pré-requis
+
+Avoir [installé](https://git-scm.com/book/fr/v1/
+D%C3%A9marrage-rapide-Installation-de-Git) et [configuré](https://training.github.com/kit/modules/
+CONT-CLI-01_Basic-Configuration.html) git
 
 ## Méthode d'apprentissage
 
@@ -11,8 +16,6 @@ La méthode d'apprentissage de cet atelier essaye de suivre les principes de
 l'assimilation intuitive: vous pratiquerez tout au long de l'atelier et
 verez les points theoriques après avoir utilisé au moins une fois le point
 étudié.
-
-Ensuite des exercices seront proposés.
 
 ## Contribuer
 

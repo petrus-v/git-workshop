@@ -10,5 +10,8 @@ a-successful-git-branching-model/)
 git-internals-pdf/releases)
 * [La doc](https://git-scm.com/doc)
 * [La doc fr](https://git-scm.com/book/fr/v2)
-
+* [Wiki](https://git.wiki.kernel.org/index.php) pas forcément très à jour mais
+  beaucoup de liens sont toujours d'actualités et interessants
+* https://www.atlassian.com/git
+* https://githowto.com
 TODO A lire: https://blog.shinetech.com/2015/01/07/git-flow-and-immutable-build-artifacts/
