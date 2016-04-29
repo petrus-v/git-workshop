@@ -12,8 +12,8 @@
 * **git remote -v**: afficher les urls fetch/push utilisé pour chaque nom de
   repo
 * **git branch**: affiche uniquement les branche du repo courant
-* **git branch -a**: affiche également les branches des repos distant
+* **git branch -a**: affiche également les branches des repos distants
 * **git branch -a -v**: affiche le commit pointé par la branche
 * **git branch -a -vv**: ajoute l'upstream de la branche
-* **git branch --set-upstream-to=<pseudo>/<votrenom> <votrenom>**: défini
+* **git branch --set-upstream-to=<pseudo>/<votrenom> <votrenom>**: définit
   l'upstream de votre branche.

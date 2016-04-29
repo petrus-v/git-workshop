@@ -11,11 +11,11 @@ __Ajouter et commiter les modifications__
 * **git add README.md**: Ajout des modifications du `README` à l'index
   (staging area)
 * **git status**: les différents états sont
-    * **non suivi**: nouveau fichiers
+    * **non suivi**: nouveaux fichiers
     * **modifié**: fichiers ayant des modifications du répertoire de travail
       (working directory)
     * **indexé**: l'unité de travail, ce qui est prêt à être commité
-* **git commit -m "add author"**: commit les modifications faite dans le fichier
+* **git commit -m "add author"**: commit les modifications faites dans le fichier
   `README`
 * **git add .**: ajoute toutes les modifications du répertoire de travail
 * **git commit -m "add LICENSE and contact"**: commit le nouveau fichier

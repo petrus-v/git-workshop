@@ -3,16 +3,16 @@
 
 * **git checkout <votrenom>**: on se positionne sur la branche <votrenom>
 * **git log**: affiche la liste des commits sur la branche courante
-* **git log --oneline**: version condensé d'u commit sur une ligne
-* **git log --oneline --graph**: version condensé des commits sur une ligne
+* **git log --oneline**: version condensée du commit sur une ligne
+* **git log --oneline --graph**: version condensée des commits sur une ligne
 * **git log --oneline --graph --decorate**: ajoute les informations de branches,
   tags, HEAD
 * **git log --oneline --graph --decorate --all**: ajoute les branches non 
   mergées
-* **git log --stat**: Pour connaître les fichiers modifié par commits
-* **git log --patch**: pour voir les changement effectué par commits
+* **git log --stat**: Pour connaître les fichiers modifiés par commit
+* **git log --patch**: pour voir les changements effectués par commit
 
-> **Note**: Possibilité de faire des aliais avec git.
+> **Note**: Possibilité de faire des alias avec git.
 
 Configuration de l'alias
 
@@ -43,5 +43,5 @@ $ git l --all
 * 9236e15 Initial commit
 ```
 
-> **Note**: Vous aurez remarqueé que vous pouvez toujours ajouter les
+> **Note**: Vous aurez remarqué que vous pouvez toujours ajouter les
 > paramètres à la suite

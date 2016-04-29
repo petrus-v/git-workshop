@@ -1,7 +1,7 @@
 # Atelier Git
 
 Cet atelier a pour objectif de couvrir et pratiquer les commandes git 
-dans le cadre de projet en équipe ou au sein d'une communautée.
+dans le cadre de projet en équipe ou au sein d'une communauté.
 
 
 ## Pré-requis
@@ -13,9 +13,9 @@ Git
 
 ## Méthode d'apprentissage
 
-La méthode d'apprentissage de cet atelier essaye de suivre les principes de
+La méthode d'apprentissage de cet atelier essaie de suivre les principes de
 l'assimilation intuitive: vous pratiquerez tout au long de l'atelier et
-verez les points théoriques après avoir utilisé au moins une fois le point
+verrez les points théoriques après avoir utilisé au moins une fois le point
 d'étude.
 
 ## Contribuer

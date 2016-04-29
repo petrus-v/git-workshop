@@ -1,6 +1,6 @@
 # Cloner un repository
 
-L'objectif est de rappartrier le projet sur son poste locale pour contribuer
+L'objectif est de rappatrier le projet sur son poste local pour contribuer
 à un projet
 
 > **TODO**: ajouter une illustration
