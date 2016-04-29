@@ -2,13 +2,13 @@
 
 ## Les types d'objets de Git
 
-Les objets Git sont les données de Git, il y a 4 type d'objets principaux
+Les objets Git sont les données de Git, il y a 4 types d'objets principaux
 **Blob**, **Tree**, **Commit**, **Tag**.
 
 Les objets sont stockés dans le répertoire Git qui se trouve généralement à la
 racine du projet ``.git/objects/``.
 
-Prenons un exemple simple de librairie python:
+Prenons un exemple simple de bibliothèque python:
 
 ```
 .
@@ -41,12 +41,12 @@ $ git cat-file -p c473879
 Simple librairie python
 =======================
 
-Ceci est une fausse librairie pour montrer le
+Ceci est une fausse bibliothèque pour montrer le
 fonctionnement interne de git.
 ```
 
-> **Important**: noté bien que seulement le contenu des fichier est stocké et
-> non le fichier, les noms et modes du fichiers sont stockés dans les objets
+> **Important**: notez bien que seulement le contenu des fichiers est stocké et
+> non le fichier, les noms et modes du fichier sont stockés dans les objets
 > de type **Tree**
 
 
@@ -88,7 +88,7 @@ Le commit permet de gérer l'historique.
 ```
 
 Un objet **commit** contient un pointeur vers un objet **tree**, un auteur,
-un committer, un message et les commits parent.
+un committer, un message et les commits parents.
 
 ```bash
 $ git ls-tree 825d425
@@ -105,7 +105,7 @@ committer Pierre Verkest <pverkest@anybox.fr> 1461854704 +0200
 Initial commit
 ```
 
-Comme c'était le commit initiale, il n'y a pas de commit parent, voici
+Comme c'était le commit initial, il n'y a pas de commit parent, voici
 ce que ça donne avec un second commit
 
 ```bash
@@ -138,10 +138,10 @@ particulier
     └── simple.py       │   blob: 3d81cdc
 ```
 
-Un tag contient les informations, d'objet sha vers lequel il pointe, le type
+Un tag contient les informations d'objet sha vers lequel il pointe, le type
 (normalement un commit), le tag lui même, la personne ayant créé le tag, un
 message et il peut également contenir une signature gpg pour permettre de
-valider l'intégriter d'une version ou d'une release.
+valider l'intégrité d'une version ou d'une release.
 
 ```bash
 $ git cat-file -t bf207a373
@@ -156,14 +156,14 @@ Realease v1
 ```
 
 > **Important**: Les branches (qui pointent également vers des commits) ne sont
-> pas sauvegardés comme des objets.
+> pas sauvegardées comme des objets.
 
 ## Les références
 
 Nous venons de voir les objets qui ne peuvent pas être modifiés, à l'inverse
 les réfénces, également enregistrées (répertoire ``.git/refs``) par git peuvent
-changer constament. Ce sont de simple pointeur vers des commits, un peu comme
-des tags mais plus facilement modifiable.
+changer constamment. Ce sont de simples pointeurs vers des commits, un peu comme
+des tags mais plus facilement modifiables.
 
 ## Le modèle
 
@@ -174,7 +174,7 @@ des tags mais plus facilement modifiable.
 __Schématisons l'exemple ci dessus__
 
 Pour rappel au premier commit nous avions ajouté l'ensemble des fichiers
-suivant :
+suivants :
 
 ```
                         │   tag: bf207a373
@@ -201,6 +201,6 @@ $ git l
 ![commit 2](images/010_git_example_commit_2.png)
 
 ---
-Ce chapitre est très grandement inspiré de l'exellent document [Git Internals](
+Ce chapitre est très grandement inspiré de l'excellent document [Git Internals](
 https://github.com/pluralsight/git-internals-pdf/releases) de [Scott Chacon](
 https://github.com/schacon)
